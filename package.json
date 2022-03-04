@@ -1,0 +1,39 @@
+{
+  "name": "react-pdf-generation",
+  "version": "1.0.0",
+  "description": "Generating on-the-fly PDFs from API data on the fly using react-pdf",
+  "keywords": [
+    "react-pdf",
+    "pdf",
+    "javascript",
+    "react"
+  ],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "1.2.19",
+    "@fortawesome/free-solid-svg-icons": "5.9.0",
+    "@fortawesome/react-fontawesome": "0.1.4",
+    "@react-pdf/renderer": "1.6.2",
+    "react": "16.8.0",
+    "react-dom": "17.0.0",
+    "react-pdf": "5.0.0",
+    "react-scripts": "5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.8",
+    "@types/react-dom": "16.8.2",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
